@@ -1,8 +1,7 @@
-scalaVersion := "2.9.1"
+scalaVersion := "2.11.7"
 
 name := "scala-dojo-01"
 
 libraryDependencies ++= Seq(
-  "junit" % "junit" % "4.8.1" % "test",
-  "org.scalatest" % "scalatest_2.9.1" % "1.7.1" % "test"
+  "org.scalatest"       %%  "scalatest" % "2.2.6" % "test"
 )
